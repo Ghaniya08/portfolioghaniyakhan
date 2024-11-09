@@ -56,8 +56,8 @@ const Slider = () => {
    <div id='reviews'>
           <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-t bg-clip-text from-purple-500 to-pink-700 text-transparent mb-[50px]'>Client Reviews</h1>
      <Carousel arrows={true} autoPlay={true} autoPlaySpeed={5000} infinite responsive={responsive} className='lg:mx-28 mx-0'>
-        {clientReviews.map((reviews) => (
-            <div className='rounded-md  overflow-hidden m-4  from-purple-700 bg-gradient-to-tr to-pink-500 transition-all '>
+        {clientReviews.map((reviews , index) => (
+            <div key={index} className='rounded-md  overflow-hidden m-4  from-purple-700 bg-gradient-to-tr to-pink-500 transition-all '>
               <div className='p-6 w-[350px] text-white'>
               <h1><FaQuoteLeft className='text-2xl'/></h1>
               <h1>{reviews.cname}</h1>
