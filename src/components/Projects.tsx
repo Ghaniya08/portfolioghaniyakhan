@@ -55,8 +55,8 @@ const Projects = () => {
     <div className='pt-16 pb-16' id='project'>
         <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-t bg-clip-text from-purple-500 to-pink-700 text-transparent mb-[50px]'>My Projects</h1>
         <div className='w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center'>
-        {ProjectList.map((project ) => (
-            <div className='bg-gradient-to-r from-pink-500 via-purple-600 to-purple-600 animate-gradient-xy p-6 rounded-lg hover:scale-105 transition-all duration-300'>
+        {ProjectList.map((project , index ) => (
+            <div key={index} className='bg-gradient-to-r from-pink-500 via-purple-600 to-purple-600 animate-gradient-xy p-6 rounded-lg hover:scale-105 transition-all duration-300'>
                 <Link href={project.Url}>
                 <Image src={project.image} alt='img'   width={300} height={200} className='rounded-lg w-[850px] h-[250px] bg-white'/>
                 </Link>
