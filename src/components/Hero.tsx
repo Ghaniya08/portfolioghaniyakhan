@@ -3,8 +3,6 @@ import Image from 'next/image'
 import React from 'react'
 import home from "../../public/home.png"
 import Typewriter from 'typewriter-effect'
-import { PiButterflyLight } from "react-icons/pi";
-import AnimationComp from './AnimationComp'
 
 const Hero = () => {
   return (
