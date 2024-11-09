@@ -28,13 +28,13 @@ const Services = () => {
     <div className='pt-16 pb-16 mt-[50px] ' id='services'>
         <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-t bg-clip-text from-purple-500 to-pink-700 text-transparent mb-[50px]'>My Services</h1>
      <div className='w-[80%] mx-auto grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-12 items-center'>
-     {SerList.map((service)=>(
-       <div className='bg-gradient-to-r from-pink-500 via-purple-600 to-purple-600 animate-gradient-xy p-6 rounded-lg hover:scale-105 transition-all duration-300'>
-            <div >
+     {SerList.map((service , index )=>(
+       <div key={index} className='bg-gradient-to-r from-pink-500 via-purple-600 to-purple-600 animate-gradient-xy p-6 rounded-lg hover:scale-105 transition-all duration-300'>
+          
             <h1 className='text-white text-3xl md:ml-2 md:mb-2'>{service.icon}</h1>
             <h1 className="text-white text-2xl mb-2 font-semibold">{service.skill}</h1>
             <p className='text-white'>{service.description}</p>
-            </div>
+           
         </div>
       ))}
      </div>
