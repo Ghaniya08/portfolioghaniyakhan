@@ -1,0 +1,22 @@
+/* 0: w-[600px] h-[100px] absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy  */
+/* @keyframes gradient-xy{
+  0%, 100% {
+    background-position:  0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+}
+.animate-gradient-xy {
+  animation: gradient-xy 3s ease infinite;
+  background-size: 200% 200%;
+} */
+
+
+
+/* 1:<motion.div
+        initial={{opacity: 0, y: 75}}
+        whileInView={{opacity:1 , y:0}}
+        viewport={{once: true}}
+        transition={{duration:0.5, delay:0.25}}
+      > */
