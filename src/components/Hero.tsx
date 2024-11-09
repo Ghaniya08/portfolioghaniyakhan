@@ -9,33 +9,6 @@ import AnimationComp from './AnimationComp'
 const Hero = () => {
   return (
     <div className='mb-[135px] lg:mt-[140px]' id='Hero'>
-     <AnimationComp size={800} rotation={-72}>
-        <PiButterflyLight className='size-16 text-pink-700/80 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={770} rotation={-35}>
-        <PiButterflyLight className='size-12 text-pink-700 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={590} rotation={98}>
-        <PiButterflyLight className='size-8 text-pink-700/20 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={430} rotation={-14}>
-        <PiButterflyLight className='size-8 text-pink-700/20 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={440} rotation={79}>
-        <PiButterflyLight className='size-5 text-pink-700 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={530} rotation={180}>
-        <PiButterflyLight className='size-10 text-pink-700 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={780} rotation={148}>
-        <PiButterflyLight className='size-14 text-pink-700 animate-bounce lg:block hidden'/>
-      </AnimationComp>
-      <AnimationComp size={420} rotation={105}>
-        <div className='size-[14px] bg-pink-700/30 rounded-full lg:block hidden '/>
-      </AnimationComp>
-      <AnimationComp size={520} rotation={0}>
-        <div className='size-[10px] bg-pink-700/30 rounded-full lg:block hidden '/>
-      </AnimationComp>
      <div className='lg:flex lg:px-[250px] lg:gap-[50px] px-6 '>
      <div >
         <Image src={home} alt='homepage' width={800} height={800} className=' w-[400px] h-[300px] block lg:hidden'/>
