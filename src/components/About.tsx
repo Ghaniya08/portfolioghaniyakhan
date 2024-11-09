@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-white -mb-9 sm:border-t-0 border-t  sm:mt-0 text-center sm:text-left">
           <p className="leading-relaxed lg:text-lg text-[13px] text-white ">
-            Hey everyone, I'm Ghaniya Khan, a 17-year-old developer with a passion for technology and a solid foundation in both frontend and backend development, along with UI/UX design. I'm skilled in HTML, CSS, JavaScript, and TypeScript, and currently exploring Next.js and React. I'm driven to grow, especially in cloud computing and AI, with a goal to become a cloud engineer. I enjoy collaborating on projects and sharing knowledge, aiming to make a positive impact in tech while learning and mentoring others.
+            Hey everyone, Im Ghaniya Khan, a 17-year-old developer with a passion for technology and a solid foundation in both frontend and backend development, along with UI/UX design. Im skilled in HTML, CSS, JavaScript, and TypeScript, and currently exploring Next.js and React. Im driven to grow, especially in cloud computing and AI, with a goal to become a cloud engineer. I enjoy collaborating on projects and sharing knowledge, aiming to make a positive impact in tech while learning and mentoring others.
           </p>
         </div>
       </div>
