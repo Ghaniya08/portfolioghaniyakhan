@@ -22,7 +22,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className='lg:hidden block mt-3'>
-        <ul className='flex gap-5 font-extrabold text-white items-center text-2xl '>
+        <ul className='flex gap-6 font-extrabold text-white items-center text-2xl '>
           <li className=''><a href="#Hero"><IoHome  className='mt-1'/></a></li>
           <li className=' '><a href="#about"><FaUser className='mt-1'/></a></li>
           <li className=''><a href="#services"><FaServicestack className='mt-1'/></a> </li>
