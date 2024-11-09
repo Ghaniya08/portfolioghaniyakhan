@@ -49,13 +49,13 @@ const Hero = () => {
                 }
             }/>
         </h1>
-        <p className='lg:w-[400px] lg:text-[15px] text-[10px] font-semibold bg-gradient-to-t bg-clip-text from-purple-500 to-pink-700 text-transparent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos in dicta enim sequi voluptate nesciunt provident non dolores consectetur magnam nihil, animi necessitatibus maiores deleniti tempore sed vero eos possimus.</p>
+        <p className='lg:w-[400px] lg:text-[15px] text-[13px] font-semibold bg-gradient-to-t bg-clip-text from-purple-500 to-pink-700 text-transparent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos in dicta enim sequi voluptate nesciunt provident non dolores consectetur magnam nihil, animi necessitatibus maiores deleniti tempore sed vero eos possimus.</p>
       </div>
       <div >
-        <Image src={home} alt='homepage' width={800} height={800} className=' w-[400px] h-[300px] lg:block hidden'/>
+        <Image src={home} alt='homepage' width={800} height={800} className=' w-[400px] h-[300px] '/>
       </div>
      </div>
-     <div className='-mt-[380px] text-center'>
+     <div className='lg:-mt-[380px] -mt-[50px] text-center'>
       <button className='rounded-xl bg-gradient-to-t from-purple-700 to-pink-600 lg:w-[150px] lg:h-[50px] w-[100px] h-[40px] lg:text-[15px] text-[10px] mr-4'>Explore My work</button>
       <button className='rounded-xl bg-gradient-to-t from-purple-700 to-pink-600 lg:w-[150px] lg:h-[50px] w-[100px] h-[40px] lg:text-[15px] text-[10px] ml-4'>Lets Contact</button>
      </div> 
