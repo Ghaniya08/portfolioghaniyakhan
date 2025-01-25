@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import home from "../../public/home.png"
 import Typewriter from 'typewriter-effect'
+
 const Hero = () => {
   return (
     <div className='mb-[135px] lg:mt-[140px]' id='Hero'>
@@ -35,6 +36,7 @@ const Hero = () => {
      <a href="https://pk.linkedin.com/in/ghaniya-khan-138919308"> 
      <button className='rounded-xl bg-gradient-to-t from-purple-700 to-pink-600 lg:w-[150px] lg:h-[50px] w-[100px] h-[40px] lg:text-[15px] text-[10px] ml-4'>Lets Contact</button>
      </a>
+
      </div> 
     </div>
   )
