@@ -5,10 +5,9 @@ import { FaUser } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { MdCall } from "react-icons/md";
 import { FaServicestack } from "react-icons/fa";
-import Link from 'next/link';
 const Nav = () => {
   return (
-    <div className='flex from-purple-700 bg-gradient-to-tr to-pink-500 h-12 lg:px-24 px-[48px] gap-12 lg:gap-32 text-white'>
+    <div className='flex from-purple-700 bg-gradient-to-tr to-pink-500 h-12 lg:px-24 px-[48px] gap-12 lg:gap-32 text-white '>
      <div className="lg:block hidden">
       <h1 className='font-extrabold text-2xl '>Ghaniya khan</h1>
            </div>

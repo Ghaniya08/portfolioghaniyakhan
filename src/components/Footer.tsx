@@ -3,7 +3,6 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
-
 const Footer = () => {
   return (
     <div className='from-purple-700 bg-gradient-to-tr to-pink-500'>
